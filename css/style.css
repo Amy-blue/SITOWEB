@@ -1,0 +1,281 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+header {
+    background-color: #5A4530;
+    width: auto;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+header h1 {
+font-style: italic;
+margin: 0;
+background: radial-gradient(43.52% 956.85% at 13.26% 50%, #B6C973 68.75%, #FFA068 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+.cer {
+    display: block;
+}
+.hero {
+   display: block;
+   justify-content: center;
+    width: 100%;
+    height: 600px;
+    background-image: url(immagini/plant-based-food-mc-220323-02-273c7b.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+ul#menu li {
+    display: inline;
+    background-color: #FCE8BD;
+    margin-top: 0px;
+}
+#menu{
+    margin-top:0%;
+    margin-bottom:0%;
+    padding-bottom:5px;
+}
+
+.asia{
+    text-align: center;
+   font-weight: 600;
+    background-color: #FCE8BD;
+  padding-top: 5px;
+  
+}
+
+li a{
+padding-right: 7%;
+background-color: #FCE8BD;
+text-decoration: none;
+color: #5A4530;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.lib{
+    width:300px;
+    color: white;
+    padding:20px;
+    background-color: #8C9B56;
+   text-shadow: 1px 2px 5px#000000;
+    box-shadow: 0px 0px 8px 1px rgb(43, 43, 43);
+}
+
+.pin {
+    font-size: 24px;
+
+}
+h2{
+    display: block;
+    justify-content: center;
+    line-height: 6px;
+    font-size: 40px;
+   font-weight: 630;
+   font-style: italic;
+ }
+
+.est {
+    width: 48%;
+    float: left;
+    border-top: 20px #5A4530 solid;
+    border-left: 20px #5A4530 solid;
+    border-bottom: 20px #5A4530 solid;
+    border-right: 20px #5A4530 solid;
+}
+
+.ren{
+    width: 40%;
+    float: left;
+    padding-left:20px;
+    padding-right:20px;
+    background-color: #FCE8BD;
+margin-top:6%;
+height:200px;
+}
+
+div .ren h3{
+    color: #ED6B1E;
+}
+div .ren p{
+    font-size: 13px;
+}
+.sec{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 30px;
+    width: 800px;
+    margin: 40px auto 0;
+  
+  }
+.puls{
+    background-color:#5A4530;
+    padding: 6px;
+    border-radius:20px;
+    margin: top 20px;
+    color: white;
+   
+   
+    
+}
+
+h4{
+   display: block;
+   display: flex;
+   justify-content: center;
+   font-size: larger;
+   font-style: italic;
+   font-size: 50px;
+   margin: 40px auto 0;
+   color: #ED6B1E;
+ 
+}
+
+.cards{
+    margin-top: 50px;
+}
+   
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+main {
+    margin: 40px auto;
+    gap: 20px;
+}
+
+main div.cards{
+    display: flex;
+    flex-wrap: nowrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+main div.card {
+    background: #fff;
+    border-top: 5px #FFA068 solid;
+    border-left: 5px #FFA068 solid;
+    border-right: 5px #FFA068 solid;
+    border-bottom: 5px #FFA068 solid;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px #818080;
+}
+
+main div.card img {
+    object-fit: cover;
+    height: 250px;
+    width: 100%;
+}
+
+main div.card p {
+    margin: 0;
+    padding: 0 20px 20px 20px;
+    font-size: 14px;
+    line-height: 1.5; 
+}
+
+main div.card h3 {
+    margin: 0;
+    padding: 0 20px 20px 20px;
+    font-size: 14px;
+    line-height: 1.5; 
+}
+
+.pul{
+
+    background-color:#5A4530;
+    padding: 6px;
+    border-radius:20px;
+    margin: top 20px;
+    color: white;
+    
+    
+    font-size: 14px;
+    line-height: 1.5; 
+    
+}
+
+
+.contt{
+    display: block;
+    justify-content: center;
+     width: 100%;
+     height: 400px;
+     background-image: url(immagini/copertina-pagine-small-4.jpg);
+     background-size:cover;
+     background-repeat: no-repeat;
+
+
+}
+
+
+.cont{ 
+    width:300px;
+    color: white;
+    padding:20px;
+    background-color: #8C9B56;
+   text-shadow: 1px 2px 5px#000000;
+    box-shadow: 0px 0px 8px 1px rgb(43, 43, 43);
+
+    
+}
+
+
+footer {
+    max-width: 1200px;
+    margin: auto;
+    background-color: #FCE8BD;
+}
+
+footer div p{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    margin: 0;
+    background: radial-gradient(43.52% 956.85% at 13.26% 50%, #B6C973 68.75%, #FFA068 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 800;
+}
+
+footer div.amy ul{
+    display: flex;
+    padding: 30px;
+}
+.amy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div.amy ul li{
+    padding: 30px;
+    text-align: center;
+   font-weight: 600;
+    background-color: #FCE8BD;
+  padding-top: 5px;
+
+}
+
